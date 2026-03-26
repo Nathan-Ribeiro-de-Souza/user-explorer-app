@@ -1,0 +1,104 @@
+#header{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: #2563EB;
+}
+
+#header h1{
+  margin: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 20px auto;
+  
+}
+
+#searchUser {
+  
+  margin: 5px;
+  padding: 12px;
+  width: 45%;
+  border-radius: 10px;
+  border: none;
+ 
+} 
+
+#searchUser::placeholder{
+  background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png');
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding-left: 20px;
+}
+
+#loadButton{
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  background-color: #2563EB;
+  color: white;
+  cursor: pointer;
+}
+
+#loadButton:hover{
+  background-color: #1E40AF;
+}
+
+#loadButton:active{
+  transform: translateY(1px);
+}
+
+.containerjs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #FFFFFF;
+  margin: 10px;
+  width: 40%;
+  min-width: 350px;
+  box-shadow: 5px 5px 5px #E2E8F0;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.face{
+  background-color: rgb(138, 78, 78);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  
+}
+
+.email{
+  margin-bottom: 5px;
+}
+
+.username{
+  margin-bottom: 20px;
+  font-size: 23px;
+  
+}
+
+.phone{
+  padding: 30px;
+}
+
