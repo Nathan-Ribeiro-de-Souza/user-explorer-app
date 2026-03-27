@@ -7,7 +7,7 @@ It allows real-time searching and filtering by name and email.
 ## Live Demo
 
 Access the application here:  
-https://nathan-ribeiro-de-souza.github.io/user-explorer-app/
+[View Project](whttps://nathan-ribeiro-de-souza.github.io/user-explorer-app/)
 
 ---
 
